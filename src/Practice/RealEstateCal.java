@@ -9,6 +9,7 @@ public class RealEstateCal {
         int numberOfBedrooms, garageSpots;
         float metroAccessibility, schoolScore, highwayAccessibility;
         boolean backyard, smoking, garage;
+        //this is the line I've added to control remote repo
 
         System.out.println("*****************************************");
         System.out.println("* Welcome to the RealEstate calculator! *");
