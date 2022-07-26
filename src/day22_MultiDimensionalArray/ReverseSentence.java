@@ -1,4 +1,4 @@
-package MultiDimensionalArray;
+package day22_MultiDimensionalArray;
 
 import java.util.Arrays;
 

@@ -8,6 +8,7 @@ public class AppearedTwice {
 
         char ch=chars[j];
         int frequency = 0;
+
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] == ch){
                 frequency++;}}

@@ -1,7 +1,6 @@
-package MultiDimensionalArray;
+package day22_MultiDimensionalArray;
 
 import java.util.Arrays;
-import java.util.SortedMap;
 
 public class ReversedSecondWord {
     public static void main(String[] args) {

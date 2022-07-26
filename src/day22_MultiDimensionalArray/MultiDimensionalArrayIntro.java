@@ -1,6 +1,5 @@
-package MultiDimensionalArray;
+package day22_MultiDimensionalArray;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class MultiDimensionalArrayIntro {

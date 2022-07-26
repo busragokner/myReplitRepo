@@ -1,0 +1,30 @@
+CONSTRUCTOR : Constructor is a special method that matches the name of the class and has
+no return type nor a specifier.
+
+public class Car(){
+}
+
+public Car(){
+}
+
+Access-Modifiers  ClassName(Parameter){
+}
+used for creating objects
+Execution depends on the object
+
+TYPES OF CONSTRUCTORS : NO-ARGUMENT
+--> A constructor that has no parameter
+--> Also known as default constructor
+--> If we do not define constructor is a class, then compiler creates default constructor.
+
+TYPES OF CONSTRUCTORS : PARAMETERIZED
+--> A constructor that has parameters
+--> If we want to initialize the fields (instance variable) of the class with our own values
+then we pass parameters to the constructor
+
+public class Employee{
+   public Employee(int age){
+}}
+
+
+

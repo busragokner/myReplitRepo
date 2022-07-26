@@ -1,0 +1,25 @@
+
+Static:
+-> Declared with static keyword
+-> Belongs to the class, and can be called through the class
+-> There is only one copy of the static shared for all objects of the class
+-> All the Objects of the class shares the same copy
+-> If changes are made to static variables, all other instances will see the effect
+of the change
+
+==> when the variable to be the common value we use the static. for example pi number is fixed.
+ it is not changeable and then we need to use static.
+
+Static is applicable for the following
+->Variables
+->Methods
+->Blocks
+->Class
+
+STATIC METHODS
+-> If we declare any methods as static, its known as static methods
+-> Objects can also call static methods
+-> Static methods only accep static members
+-> A method that can be called using class name, without creating objects
+
+==> Static methos does not accept instances
