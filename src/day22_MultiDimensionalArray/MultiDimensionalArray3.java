@@ -1,6 +1,4 @@
-package MultiDimensionalArray;
-
-import java.util.Arrays;
+package day22_MultiDimensionalArray;
 
 public class MultiDimensionalArray3 {
     public static void main(String[] args) {
