@@ -1,6 +1,7 @@
 package day30_CustomClass;
 
-public class Car {
+public class
+Car {
     public String brand ;
     public String model ;
     public String color ;

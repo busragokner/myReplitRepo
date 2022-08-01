@@ -1,0 +1,29 @@
+ Inheritance: to build IS A relationship(parent and child , super and sub)
+
+    child class:(sub class) : can inherite all the variables & methods (visible) from the parent class
+    parent class:(super class):can not inherit anything from child class.contain all the common feature
+    that are meant to be inherited
+
+    less codes
+    improves the reusability
+    clean
+    less memory usage
+    easy to maintain
+
+
+    easiest way to get reach --> extends (genisletme)
+
+
+    this keyword = referst to the instances Current
+
+    this. : call instance variable & instance method
+    this() : call the constructor of current class
+
+    super keyword : referst to the instances. parent class
+    super. : calls instance variables & instance methods of super class
+    super() : calls the constructor from the parent class
+
+    Constructor calls in inheritance:
+    1. Child class MUST call parent class' constructor
+    2. Parent class' default constructor is always called implicitly in child class
+    3. Parent class constructor with argument need to be called explicitly

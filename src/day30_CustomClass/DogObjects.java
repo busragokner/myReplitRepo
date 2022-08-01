@@ -7,6 +7,7 @@ public class DogObjects {
     public static void main(String[] args) {
 
     Dog dog1 =  new Dog();
+    
 
     dog1.name = "Lucy";
     dog1.breed = "Husky";
