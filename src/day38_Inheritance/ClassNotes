@@ -1,0 +1,52 @@
+
+IS A :
+class Animal {
+
+}
+class God extends Animal { --> Dog IS A animal
+}
+
+class Employee {
+
+}
+class Tester extends Employee { --> Tester IS A employee
+
+}
+
+HAS A :
+class Tester extends Employee{
+}
+class ScrumTeam{ --> ScrumTeam HAS A Tester
+Tester
+}
+class Tiger extends Animal  { --> Tiger IS A animal
+}
+class Zoo{ --> Zoo HAS A Tiger
+    Tiger
+}
+
+Method Overloading:multiple different methods having the same name
+                   parameter must be different
+                   ANY method can be overloaded
+
+Method Overriding:
+Giving different implementations to the method
+One method having multiple different implementations
+Overriding a method must take place in subclass
+Less memory usage and Improves the reusability of our code
+
+(action is same but different implementations)
+
+METHOD OVERRIDING RULES:
+->Must happen in the sub class
+->Return type, method name and parameters of the overridden method must be same
+->Access modifiers of the overridden method needs to be same or more visible
+->We can not override methods with private access modifier, or with static & final specifiers
+->Only the instance methods (not private & not final) can be overridden
+(can not never overridden -> static, final and private method)
+
+ACCESS MODIFIERS:
+public > protected > default > private
+
+
+
